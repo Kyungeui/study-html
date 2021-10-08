@@ -1,0 +1,89 @@
+@charset "utf-8"
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+div #contanier {
+    width: auto;
+    height: auto;
+
+}
+#header> ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#header> ul> li {
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+#header> ul> li:last-child a{
+    border-right: 1px solid;
+   
+    
+}
+#header> ul> li> a {
+    text-decoration: none;
+    color: black;
+    font: 30px;
+    display: block;
+    padding: 10px 15px;
+    width: auto;
+    border-left: 1px solid #cccccc;
+   
+}
+
+#gallery> li> a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#gallery> li {
+    list-style: none;
+}
+#gallery {
+    width: 640px;
+    margin: auto;
+}
+#gallery li {
+    width: 25%;
+    float: left;
+}
+#gallery li a {
+    display: block;
+    width: auto;
+    padding: 10px;
+}
+#gallery li a span {
+    display: block;
+    width: auto;
+}
+#gallery .thumb img{
+    width: 100%;
+}
+#gallery .text {
+    width: 95%;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #000;
+
+}
+
+#sidebar {
+    width: 160;
+    background-color: mediumaquamarine;
+    float: right;
+    min-height: px;
+}

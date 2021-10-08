@@ -26,11 +26,6 @@
 			position: fixed;
 			left: 0;
 			top: 0;
-			/** FOR IE7~8 >> IE7~8은 fixed속성을 처리하지 못한다.*/
-			_position: absolute;
-			/** FOR IE7~8 >> fixed가 처리되지 않으므로, 스크롤의 위치를 따라
-				    top좌표를 인식시킨다. */
-			_top: expression(eval(document.body.scrollTop));
 		}
 		/* 타이틀 바 > 제목
 			 ----------------------------------- */
